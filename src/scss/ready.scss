@@ -1,0 +1,22 @@
+.ready {
+	background-color: $_white ;
+	padding: 119px 0 114px;
+
+	&-title {
+		margin-bottom: 20px;
+		text-align: center;
+		@include adaptiv-font(30, 18);
+		font-weight: $_medium;
+	}
+
+	&-text {
+		margin-bottom: 48px;
+		text-align: center;
+		@include adaptiv-font(18, 13);
+		font-weight: $_bold;
+	}
+}
+
+.ready-btn {
+	@include btn
+}
