@@ -1,0 +1,61 @@
+@import './variables';
+@import './fonts';
+@import './mixins';
+@import './cdn';
+@import './header.scss';
+@import './cards.scss';
+@import './works.scss';
+@import './staff.scss';
+@import './swiper.scss';
+@import './ready.scss';
+@import './footer.scss';
+// @import './main.scss';
+// @import './about.scss';
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	font-family: 'Raleway', "serif";
+
+	@media (max-width: 1200px) {
+		font-size: 12px;		
+	}
+
+	@media (max-width:767px) {
+		font-size: 9px;		
+	}
+}
+
+body.lock {
+	@media (max-width:767px) {
+		overflow: hidden;	
+	}
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+	padding: 0 15px;
+	position: relative;
+	z-index: 10;
+}
+
+a {
+	cursor: pointer;
+}
+// .card {
+// 	@include card
+// }
+
+// .tools {
+// 	&-elem {
+
+// 	}
+// }
